@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 bitcoin = 0.01301
-bot = telebot.TeleBot("5374222900:AAHSy4EmHhQ2hVn3mQESxQKajeAGa71FA0U")
+bot = telebot.TeleBot("") # paste your hash here
 
 def toFixed(numObj, digits=2):
     return f"{numObj:.{digits}f}"
